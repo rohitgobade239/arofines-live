@@ -1,0 +1,30 @@
+[
+  {
+    "id": "blog-001",
+    "title": " Arofine Polymers Glimpse of Factory",
+    "datePosted": "2025-04-17",
+    "imgSrc": "/images/blog/Thumbnail_glimpse_of_factory.jpg",
+    "link": "/blogs/arofine-polymers-glimpse-of-factory"
+  },
+   {
+    "id": "blog-002",
+    "title": "Dealer Focus Homer",
+    "datePosted": "2025-04-17",
+    "imgSrc": "/images/blog/Thumbnail_dealer_focus_homer.jpg",
+    "link": "/blogs/dealer-focus-homer"
+  },
+   {
+    "id": "blog-003",
+    "title": "Not Just Adhesives_ The People and Passion Behind Arofine’s Beginning",
+    "datePosted": "2025-04-17",
+    "imgSrc": "/images/blog/Thumbnail_Not_Just_Adhesives.jpg",
+    "link": "/blogs/not-just-adhesives-the-people-and-passion-behind-Arofines-beginning"
+  },
+  {
+    "id": "blog-004",
+    "title": "Why Professionals Trust Arobond 44 Pro for Vinyl Flooring Adhesion",
+    "datePosted": "2025-04-17",
+    "imgSrc": "/images/blog/Thumbnail_Why_Professionals_Trust_Arobond 44.jpg",
+    "link": "/blogs/why-professionals-trust-arobond-44-pro-for-vinyl-flooring-adhesion"
+  }
+]

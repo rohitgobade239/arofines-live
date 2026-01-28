@@ -1,0 +1,149 @@
+.talk-to-expert-container {
+  max-width: 600px;
+  /* margin: 50px auto; */
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 12px;
+}
+
+.shadow-box {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.s {
+  background-color: red;
+}
+
+.talk-header h2 {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 34px;
+  padding-bottom: 5px;
+  color: #5C5C5C;
+}
+
+.plceholder-cust-talk {
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+  color: #7B7B7B;
+}
+
+.talk-header p {
+  font-size: 18px;
+  color: #5C5C5C;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 25px;
+}
+
+.talk-form .form-control,
+.talk-form .form-select {
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  padding: 12px;
+  font-size: 15px;
+}
+
+.talk-form .form-control:focus,
+.talk-form .form-select:focus {
+  box-shadow: none;
+  border-color: none;
+}
+
+.submit-btn {
+  background-color: #e01e2e;
+  border: 1px solid #e01e2e;
+  border-radius: 8px;
+  color: white;
+  padding: 10px 28px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #c81a28;
+  border: 1px solid #e01e2e;
+}
+
+.submit-btn:active {
+  background-color: #c81a28 !important;
+  border: 1px solid #e01e2e !important;
+  box-shadow: none !important;
+}
+
+.submit-btn:focus-visible {
+  background-color: #c81a28 !important;
+  border: 1px solid #e01e2e !important;
+  box-shadow: none;
+}
+
+.invalid-feedback {
+  font-size: 13px;
+  color: #e01e2e;
+}
+
+.talk-btn-arrow {
+  padding-left: 5px;
+  font-size: 20px;
+}
+
+.talk-overly {
+  position: fixed;
+  z-index: 99;
+  height: 100vh;
+  width: 100%;
+  background: #00000069;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+}
+
+.close-btn {
+  position: absolute;
+  right: 30px;
+  top: 20px;
+}
+
+/* Small devices (Mobile phones, 300px and above) / */
+@media only screen and (min-width: 200px) and (max-width: 599px) {
+  .talk-to-expert-container {
+    margin: 0 auto;
+  }
+
+  .talk-header h2 {
+    font-size: 20px;
+    padding-bottom: 0px;
+    line-height: 26px;
+  }
+
+  .talk-header p {
+    margin-bottom: 10px;
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .talk-form .form-control,
+  .talk-form .form-select {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .talk-to-expert-container {
+    padding: 20px;
+  }
+
+  .talk-form .form-control {
+    height: 40px;
+  }
+
+
+
+  .talk-to-expert-container .invalid-feedback {
+    display: none !important;
+  }
+
+}
+
+/* Medium devices (Tablets, 600px and above) / @media only screen and (min-width: 600px) and (max-width: 899px) { / Styles for tablets }*/

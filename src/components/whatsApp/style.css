@@ -1,0 +1,17 @@
+.what-contact-gap {
+    position: fixed;
+    bottom: 12px;
+    right: 12px;
+    display: none;
+}
+
+.what-contact-gap .whatsapp-icon {
+    height: 40px;
+    width: 40px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 599px){
+    .what-contact-gap {
+        display: block;
+    }
+}

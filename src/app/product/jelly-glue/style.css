@@ -1,0 +1,425 @@
+.pasting-page {
+  color: #000;
+}
+
+/* Banner */
+.banner {
+  background-image: url("/images/productcategory/JellyGlue/Banner_jelly_glue.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 60px 0;
+  height: 600px;
+}
+
+.banner-title {
+  font-size: 42px;
+  font-weight: bold;
+  color: #FFFFFF;
+  padding-top: 80px;
+  padding-bottom: 10px;
+}
+
+.industries {
+  display: flex;
+  gap: 36px;
+}
+
+.industries span {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  color: #FFFFFF;
+  font-weight: 500;
+}
+
+.banner-ind {
+  color: #ffde00;
+  font-size: 16px;
+  font-weight: 500;
+  padding-bottom: 7px;
+}
+
+/* Brands */
+.brands {
+  padding: 16px 0;
+  background: #E4E4E4;
+}
+
+.brands .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.brands p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+/* Advantages */
+.advantages {
+  background: #ffde00;
+  padding: 40px 0;
+}
+
+.advantages h2 {
+  font-size: 36px;
+  font-weight: 500;
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.adv-text-pm {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.adv-gap {
+  gap: 40px;
+}
+
+/* Filters */
+.filters {
+  padding: 50px 0 30px;
+}
+
+.filters h3 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 48px;
+}
+
+.filters p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #5C5C5C;
+  line-height: 28px;
+}
+
+.filters-text {
+  font-size: 15px !important;
+  color: #181818 !important;
+  line-height: 22px;
+  font-weight: 400;
+  margin-bottom: 10px !important;
+}
+
+.form-select {
+  color: #BCBCBC;
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 400;
+}
+
+.form-select:focus {
+  border-color: #BCBCBC;
+  box-shadow: none;
+  outline: none;
+}
+
+.title-productm {
+  color: #191919;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 24;
+}
+
+.descript-sub {
+  color: #5C5C5C;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.high-speed-bg {
+  background-color: #E31F26 !important;
+  font-size: 13px;
+  font-weight: 500;
+  white-space: normal;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  line-height: 18px;
+
+
+}
+
+/* Product Cards */
+.product-card-body{
+      justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+}
+.product-card {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 15px;
+  height: 100%;
+}
+
+.product-card .h5 {
+  font-size: 20px;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 24px;
+}
+
+.product-card .card-text {
+  font-size: 14px;
+  color: #5C5C5C;
+}
+
+.enquiry-btn {
+  background: #2d1a87;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.enquiry-btn-remove {
+  background-color: #E31F26 !important;
+}
+
+.enquiry-btn:hover {
+  background: #E31F26;
+
+}
+
+/* Enquiry Form */
+.enquiry-form {
+  border: 1px solid #ddd;
+  padding: 22px;
+  border-radius: 6px;
+  background: #EFEFEF99;
+  position: sticky;
+  top: 20px;
+  /* keeps form sticky */
+}
+
+.enquiry-form h4 {
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 24px;
+  color: #191919;
+}
+
+.title-form-input {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #181818;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+
+}
+
+.place-titlen {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  color: #BCBCBC;
+}
+
+.place-titlen::placeholder {
+  color: #BCBCBC;
+
+}
+
+.form-control:focus {
+  color: var(--bs-body-color);
+  background-color: var(--bs-body-bg);
+  border-color: #86b7fe;
+  outline: 0;
+  box-shadow: none;
+}
+
+.tags .badge {
+    margin: 3px;
+    padding: 0;
+    font-size: 14px;
+    background: none !important;
+    /* width: 47%; */
+    border: 1px dashed #9E9E9E;
+    color: #9E9E9E;
+    font-weight: 500;
+    padding: 2px 5px 1px 9px ;
+
+}
+
+.tags .badge p {
+  margin: 3px;
+  display: inline-block;
+  color: #dc3545;
+}
+
+.comman-color {
+  color: #5C5C5C;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.captcha-placeholder {
+  background: #f1f1f1;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+  font-size: 14px;
+  color: #666;
+}
+
+.submit-btn {
+  background: #000;
+  border: none;
+  padding: 12px;
+  border-radius: 4px;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.submit-btn:hover {
+  background-color: #FFDD00;
+  color: #000;
+
+}
+
+.close-btn-badge {
+  background: None;
+  border: none;
+  font-weight: 800;
+  color: #dc3545;
+}
+
+
+.close-btn-badge:hover, .close-btn-badge:active,.close-btn-badge:focus-visible {
+  background-color: transparent !important;
+}
+
+/* Small devices (Mobile phones, 300px and above) /  */
+@media only screen and (min-width: 300px) and (max-width: 599px) {
+  .banner {
+    height: 350px;
+    padding: 30px 0;
+  }
+
+  .banner-title {
+    padding-top: 30px;
+    font-size: 32px;
+  }
+
+  .industries {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .industries span {
+    justify-content: flex-start;
+  }
+
+  .brands .container {
+    flex-direction: column;
+  }
+
+  .high-speed-bg {
+    white-space: normal;
+    word-wrap: break-word;
+  }
+
+  .product-card .card-body {
+    padding: 0px;
+  }
+
+  .enquiry-form {
+    padding: 15px;
+  }
+
+  .product-card .h5 {
+    font-size: 16px;
+  }
+
+  .enquiry-form h4 {
+    font-size: 16px;
+  }
+
+  .title-form-input,
+  .place-titlen,
+  .form-select {
+    font-size: 13px;
+    margin-bottom: 2px;
+  }
+
+  .place-titlen {
+    padding: 5px 10px;
+  }
+
+  .tags .badge {
+    white-space: normal
+  }
+
+  .submit-btn {
+    font-size: 15px;
+    padding: 5px;
+  }
+
+  .enquiry-btn {
+    font-size: 14px;
+    padding: 5px 0px;
+  }
+}
+
+/* Medium devices (Tablets, 600px and above) / */
+@media only screen and (min-width: 600px) and (max-width: 899px) {
+  .high-speed-bg {
+    white-space: normal;
+    word-wrap: break-word;
+  }
+
+  .enquiry-form {
+    padding: 15px;
+  }
+
+  .product-card .h5 {
+    font-size: 16px;
+  }
+
+  .enquiry-form h4 {
+    font-size: 16px;
+  }
+
+  .title-form-input,
+  .place-titlen,
+  .form-select {
+    font-size: 13px;
+    margin-bottom: 2px;
+  }
+
+  .place-titlen {
+    padding: 5px 10px;
+  }
+
+  .tags .badge {
+    white-space: normal
+  }
+
+  .submit-btn {
+    font-size: 15px;
+    padding: 5px;
+  }
+
+  .enquiry-btn {
+    font-size: 14px;
+    padding: 5px 0px;
+  }
+}
+
+.form-select {
+    color: #737373;
+}

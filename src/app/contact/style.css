@@ -1,0 +1,335 @@
+/* Contact Page */
+/* Banner */
+.banner {
+  background-image: url("/images/contact/Contact_banner.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 60px 0;
+  height: 600px;
+}
+
+.banner-title {
+  font-size: 42px;
+  font-weight: bold;
+  color: #FFFFFF;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.talk-header-custt h2 {
+     color: #000;
+    margin-bottom: 10px;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 48px;
+}
+
+.talk-header-custt p {
+  color: #5c5c5c;
+    margin-bottom: 25px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.city-cust-r{
+ padding: 30px 30px 25px 30px !important;
+}
+
+.title-mn-contact{
+    color: #000;
+    margin-bottom: 10px;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 48px;
+}
+   
+  .ArofineContact{
+    background-color: #ededed;
+    padding: 65px 0px;
+  }
+  .ArofineContact  .head{
+    margin-bottom: 15px;  
+  }
+  .ArofineContact  .head h2{
+    font-size: 36px;
+    font-weight: 500;
+  }
+  .ArofineContact  .head p{
+    font-size: 18px; 
+  }
+  .ArofineContact .ContactForm .form-control{
+    height: 45px;
+  }
+  .ArofineContact .ContactForm textarea.form-control{
+    height: auto;
+  }
+  .ArofineContact .ContactForm .form-group {
+    margin-bottom: 22px;
+  }
+  .ArofineContact .card {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 3px 5px 0 rgba(0,0,0,0.2), 0 3px 7px 0 rgba(0,0,0,0.19);
+  }
+   
+  .ArofineContact .card .card-content{
+    padding: 30px 30px 15px;
+  }
+  .ArofineContact .card .card-content .cardDetails p{
+    font-size: 18px;
+    line-height: 27px;
+  }
+  .ArofineContact .card .card-content .cardhead h4{
+    font-size: 22px;
+    color: #2c2784 ;
+    font-weight: 700;
+    margin: 0px 0px 20px;
+  }
+  .ArofineContact .card .card-content .cardDetails h5{ 
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .ArofineContact .card .card-content .cardDetails span{
+    margin: 0px 10px;
+  }
+  /* New Style */
+  .ArofineContact .card .card-content .GetDirection{
+    margin-top: 20px;
+  }
+  .ArofineBranches  .DetailsBox h4{
+    font-size: 18px;
+    color: #2c2784 ;
+    font-weight: 700;
+    margin: 0px 0px 10px;
+  }
+  .ArofineBranches .DetailsBox p{
+    font-size: 18px;
+    line-height: 28px;
+    color: #000;
+  } 
+  .ArofineBranches .DetailsBox .EmailDetails p{
+    margin-bottom: 1px;
+  }
+  .ArofineBranches .DetailsBox .GetDirection{
+    margin-top: 20px;
+  }
+  .ArofineBranches .RegionalContacts{
+    margin-top: 50px;
+  }
+  .ArofineBranches .RegionalContacts .DetailsBox{
+    padding: 27px;
+    height: 175px;
+  }
+  .ArofineBranches .RegionalContacts .DetailsBox h3{
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 10px;
+  } 
+
+  .title-mn-fomss{
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 40px;
+    color: #000;
+  }
+  .title-subb-fomss{
+    font-size: 18px;
+    line-height: 30px;
+    color: #000;
+  }
+
+  /* Arofine Branches */
+.ArofineBranches{
+  padding: 55px 0px 75px;
+}
+.ArofineBranches  .head{
+  margin-bottom: 25px;  
+}
+.ArofineBranches  .head h2{
+  font-size: 36px;
+  font-weight: 500;
+}
+.ArofineBranches .DetailsBox{
+  border: 1px solid #b7b7b7;
+  padding: 40px 15px  25px 30px;
+  /* height: 215px; */
+}
+.ArofineBranches .yellowBorder{
+  border-top: 5px solid #ffdd00;
+}
+.ArofineBranches .grayBorder{
+  border-top: 5px solid #c7c7c7;
+}
+.btnTwo{
+    color: #fff;
+    background-color: #e31f26 !important;
+     padding: 13px 27px;
+    font-size: 15px;
+    font-weight: 700;
+    display: inline-block;
+    border-radius: 10px;
+    border: 0 solid transparent;
+    outline: none;
+    margin-top: 15px;
+    width: 200px;
+}
+.btnTwo:hover{
+    color: #000;
+    background-color: #fd0!important;
+    border-color: #fd0 !important;
+}
+  /* Mobile portrait */
+@media only screen and (min-width:320px) and (max-width:767px){
+  	/* Contact Page */
+    /* Banner */
+    .contsctBanner .BannerText { 
+      padding: 180px 0px;
+  }
+  .contsctBanner .text-right {
+      text-align: left;
+  }
+  /* Arofine Contact */
+  .ArofineContact {
+      padding: 40px 0px;
+  }
+  .ArofineContact .head h2 {
+      font-size: 36px; 
+  }
+  .ArofineContact .head p {
+      font-size: 16px;
+  }
+  /*  Arofine Address */
+  .ArofineContact .card .CardHead,
+  .ArofineContact .card .CardHead img{
+    height: 80px;
+  }
+  .ArofineContact .card .CardHead .texthead{
+    top: 18%;
+    padding-left: 17px;
+    height: 75px;
+    padding-top: 0%;
+  }
+  .ArofineContact .card{
+    margin-top: 25px;
+  }
+  .ArofineContact .card .card-content {
+      padding: 17px;
+  }
+  .ArofineContact .card .CardHead .texthead h4,
+  .ArofineContact .card .card-content .cardhead h4{
+    font-size: 20px;
+  }
+  
+  .ArofineContact .card .card-content .cardDetails h5,
+  .ArofineContact .card .card-content .cardDetails p{
+      font-size: 16px;
+  }
+  /* Arofine Branches */
+  .ArofineBranches {
+      padding: 0px 0px 50px;
+  }
+  .ArofineBranches .head h2 {
+      font-size: 36px; 
+  }
+  .ArofineBranches .DetailsBox { 
+      padding: 20px;
+      height: auto;
+  }
+  .ArofineBranches .DetailsBox h3 {
+      font-size: 20px; 
+  }
+  .ArofineBranches .DetailsBox p {
+      font-size: 16px;
+      line-height: 24px;
+  }
+}
+
+/* Ipad portrait  */
+@media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : portrait){ 
+    /* Contact Page */ 
+    .ArofineContact .pd-no{
+      padding: 15px;
+    }
+    /* ArofineContact card */
+    .ArofineContact .card .CardHead .texthead{
+      padding-top: 10px;
+      padding-left: 15px;
+    }
+    .ArofineContact .card .card-content {
+        padding: 15px;
+    }
+    .ArofineBranches .DetailsBox { 
+        padding: 25px 40px; 
+    }
+}
+
+/* Ipad landscape  */
+@media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : landscape){  
+	/* Contact Page */
+	/* Banner */
+	.contsctBanner .BannerText {
+	    padding: 160px 0px;
+	}
+	/* ArofineContact card */
+	.ArofineContact .Details{
+			margin-left: -30px;
+  }
+  .ArofineBranches .DetailsBox {
+    border: 1px solid #b7b7b7;
+    padding: 30px 10px 25px 15px;
+    /* height: 215px; */
+  
+  }
+  .ArofineBranches .DetailsBox p {
+    font-size: 16px; 
+  }
+  .ArofineBranches .RegionalContacts .DetailsBox {
+    padding: 20px;
+    height: 160px;
+  }
+}
+
+/* New Devices Media query */
+@media screen and (min-width: 812px) and (max-width:853px) and (orientation : landscape) { 
+	/* Contact Page */
+	.ArofineContact .customCol{
+		width: 100%;
+	}
+	.ArofineContact .Details {	 
+	    width: 60%;
+	    margin: 25px auto 0px;
+  }
+}
+
+@media screen and (min-width: 960px) and (max-width:966px) and (orientation : landscape) {   
+	/* Contact Page */
+	.ArofineContact .customCol{
+		width: 100%;
+	}
+	.ArofineContact .Details {	 
+	    width: 60%;
+	    margin: 25px auto 0px;
+  }
+}
+/* Small devices (Mobile phones, 300px and above) /  */
+@media only screen and (min-width: 300px) and (max-width: 599px) {
+  .banner {
+    height: 350px;
+    padding: 30px 0;
+    background-color: rgba(0, 0, 0, 0.5); 
+    background-blend-mode: overlay; 
+  }
+  .ArofineBranches .yellowBorder {
+    border-top: 2px solid;
+}
+
+  .banner-title {
+    padding-top: 30px;
+    font-size: 32px;
+  }
+  .ArofineBranches{
+    padding-top: 30px;
+  }
+}

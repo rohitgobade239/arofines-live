@@ -1,0 +1,256 @@
+.blog-main-section {
+  padding: 120px 0;
+}
+/* blog banner */
+.blog-feature-bredcome{
+  font-size: 16px;
+  padding-top: 10px;
+}
+.blog-bannner {
+  height: 500px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+    /* background-image: url("../../../../public/images//home/blog_lt1.jpg"); */
+
+}
+.overlay {
+  border-width: 10px;
+  border-style: solid;
+  border-image-source: linear-gradient(#00000090);
+  border-image-slice: fill 1;
+}
+
+/* LEFT FEATURE BLOG */
+.blog-feature-box {
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  padding-bottom: 20px;
+  padding-right: 80px;
+  padding-top: 20px;
+}
+
+
+.blog-feature-img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+.blog-feature-title {
+  margin-top: 20px;
+  font-size: 30px;
+  font-weight: 600;
+  color: #000;
+}
+.blog-feature-title-banner {
+  margin-top: 20px;
+  font-size: 30px;
+  font-weight: 600;
+  color: #fff;
+  display: flex;
+  padding: 30px;
+  flex-direction: column;
+    padding-top: 30px;
+
+        height: 100%;
+    justify-content: center;
+
+}
+.blog-bottom-section{
+  margin-top: 30px;
+}
+.blog-feature-title-banner-inne{
+    color: #000;
+    padding-bottom: 10px;
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.blog-feature-text {
+  font-size: 16px;
+  line-height: 26px;
+  color: #444;
+  padding-bottom: 10px;
+  /* padding-top: 20px; */
+}
+.blog-h2{
+  padding-top: 20px;
+}
+.blog-h3{
+  /* padding-top: 20px; */
+  color: #000;
+  padding-top: 20px;
+}
+.cust-bullet-pointm{
+  color: #444;
+}
+.title-more-blogt{
+  color: #000;
+}
+
+/* RIGHT SIDE BLOG LIST */
+.blog-side-list {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  margin-top: 20px;
+}
+.blog-side-list-sm{
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-card-rect {
+  display: flex;
+  background: #f5f5f5;
+  padding: 15px;
+  margin-top: 30px;
+  border-radius: 12px;
+  align-items: center;
+  gap: 15px;
+}
+
+.blog-card-img {
+  border-radius: 10px;
+}
+
+.blog-card-content {
+  flex: 1;
+}
+
+.blog-card-content h5 {
+  margin: 5px 0;
+  font-size: 16px;
+  color: #000;
+  font-weight: 600;
+}
+
+.blog-date {
+  color: #777;
+  font-size: 12px;
+}
+
+.read-link {
+  display: inline-block;
+  margin-top: 8px;
+  font-size: 14px;
+  color: #000;
+  border-bottom: 1px solid #000;
+  text-decoration: none;
+}
+
+/* Mobile */
+/* Small devices (Mobile phones, 300px and above) */
+@media only screen and (min-width: 300px) and (max-width: 599px) {
+  .blog-main-section {
+    padding: 60px 15px;
+  }
+
+  .blog-feature-box{
+    padding: 0px;
+  }
+
+  .blog-feature-title,
+  .blog-feature-title-banner-inne {
+    font-size: 22px;
+  }
+  .blog-feature-title-banner{
+        padding: 10px;
+  }
+
+  .blog-feature-text {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .blog-card-rect {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .blog-card-content h5 {
+    font-size: 14px;
+  }
+
+  .read-link {
+    font-size: 13px;
+  }
+
+  .blog-bannner {
+    min-height: 80%;
+    background-attachment: scroll;
+  }
+}
+
+/* Medium devices (Tablets, 600px and above) */
+@media only screen and (min-width: 600px) and (max-width: 899px) {
+  .blog-main-section {
+    padding: 80px 20px;
+  }
+
+  .blog-feature-title,
+  .blog-feature-title-banner-inne {
+    font-size: 26px;
+  }
+
+  .blog-feature-text {
+    font-size: 15px;
+    line-height: 24px;
+  }
+
+  .blog-card-rect {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .blog-bannner {
+    height: 350px;
+    background-attachment: scroll;
+  }
+}
+
+/* Large devices (Desktops, 900px and above) */
+@media only screen and (min-width: 900px) and (max-width: 1199px) {
+  .blog-main-section {
+    padding: 100px 30px;
+  }
+
+  .blog-feature-title,
+  .blog-feature-title-banner-inne {
+    font-size: 28px;
+  }
+
+  .blog-feature-text {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .blog-bannner {
+    height: 450px;
+  }
+}
+
+/* Extra Large devices (Larger desktops, 1200px and above) */
+@media only screen and (min-width: 1200px) {
+  .blog-main-section {
+    padding: 120px 0;
+  }
+
+  .blog-feature-title,
+  .blog-feature-title-banner-inne {
+    font-size: 30px;
+  }
+
+  .blog-feature-text {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .blog-bannner {
+    height: 500px;
+  }
+}

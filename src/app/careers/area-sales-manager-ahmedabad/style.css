@@ -1,0 +1,187 @@
+/* ============================================================
+   YOUR OLD CSS (KEPT EXACTLY SAME — NOT REMOVED)
+   ============================================================ */
+
+.pasting-page {
+  color: #2b2b2b;
+}
+
+/* Banner */
+.banner {
+  background-image: url("/images/carrers/careerall.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 60px 0;
+  height: 400px;
+}
+
+.banner-title {
+  font-size: 42px;
+  font-weight: bold;
+  color: #fff;
+  padding-top: 80px;
+  padding-bottom: 10px;
+}
+
+/* Small devices (Mobile phones, 300px and above) */
+@media only screen and (min-width: 300px) and (max-width: 599px) {
+  .js-text-p{
+    font-size: 14px;
+  }
+  .banner {
+    height: 250px;
+    padding: 30px 0;
+  }
+  .banner-title {
+    padding-top: 30px;
+    font-size: 32px;
+  }
+}
+
+/* Medium devices (Tablets, 600px and above) */
+@media only screen and (min-width: 600px) and (max-width: 899px) {
+  .high-speed-bg {
+    white-space: normal;
+    word-wrap: break-word;
+  }
+}
+
+
+/* ============================================================
+   NEW JOB DESCRIPTION SECTION (DESKTOP DEFAULT)
+   ============================================================ */
+
+.jd-section {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin: 20px auto;
+  border-radius: 12px;
+}
+
+.jd-title {
+  font-size: 34px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #2b2b2b;
+}
+
+.jd-pragrap1{
+  padding-top: 10px;
+}
+
+.jd-heading-cust{
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #2b2b2b;
+  padding-top: 30px;
+
+}
+
+.js-text-p{
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.jd-location {
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.jd-heading {
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  color: #2b2b2b;
+}
+
+
+.jd-apply {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  color: #2b2b2b;
+}
+
+.jd-list {
+  list-style: disc;
+  padding-left: 25px;
+  margin-bottom: 15px;
+}
+
+.jd-list li {
+  margin-bottom: 6px;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+
+/* ============================================================
+   MOBILE RESPONSIVE (300px – 599px)
+   ============================================================ */
+
+@media only screen and (min-width: 300px) and (max-width: 599px) {
+
+  .jd-section {
+    margin: 10px 10px;
+    border-radius: 10px;
+  }
+
+   .js-text-p{
+    font-size: 14px;
+  }
+
+  .jd-title {
+    font-size: 22px;
+  }
+
+  .jd-location {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+
+  .jd-heading {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+
+  .jd-list {
+    padding-left: 18px;
+  }
+
+  .jd-list li {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+}
+
+
+/* ============================================================
+   TABLET RESPONSIVE (600px – 899px)
+   ============================================================ */
+
+@media only screen and (min-width: 600px) and (max-width: 899px) {
+
+  .jd-section {
+    padding: 30px;
+    margin: 30px 20px;
+    border-radius: 12px;
+  }
+
+  .jd-title {
+    font-size: 26px;
+  }
+
+  .jd-heading {
+    font-size: 19px;
+  }
+
+  .jd-list li {
+    font-size: 15px;
+    line-height: 1.55;
+  }
+}

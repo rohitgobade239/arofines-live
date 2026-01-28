@@ -1,0 +1,250 @@
+/* ========================= */
+/* Header background */
+/* ========================= */
+
+.arrow-icon {
+  margin-left: 5px;
+  font-size: 12px;
+}
+
+.hed-sti-main {
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+  top: 70px;
+  transition: top 0.3s ease-in-out;
+}
+
+.hed-sti-main.scrolled {
+  top: 0;
+}
+
+
+.header-main-bg {
+  background-color: rgba(254, 254, 254, 0.9);
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 16px;
+  color: #000 !important;
+  position: relative;
+  z-index: 1300;
+  border-radius: 10px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.logo-wh {
+  width: 264px;
+  height: 48px !important;
+}
+
+#basic-navbar-nav>.nav {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-nav .nav-link {
+  font-weight: 400 !important;
+  color: #000 !important;
+  text-transform: none !important;
+  display: flex;
+  align-items: center !important;
+  padding: 13px 15px !important;
+}
+
+/* ========================= */
+/* FULLSCREEN MEGA MENU BELOW NAVBAR */
+/* ========================= */
+.mega-menu-link {
+  cursor: pointer;
+  padding: 10px 15px;
+  font-weight: 500;
+}
+
+.mega-menu-overlay {
+  position: absolute;
+  top: 74px;
+  /* adjust to your navbar height */
+  left: 0;
+  width: 100%;
+  z-index: 1200;
+  overflow-y: auto;
+  padding-bottom: 70px;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ========================= */
+/* Talk button */
+/* ========================= */
+.talk-expert-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background-color: #E31F26;
+  border-color: #E31F26;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 10px 20px;
+  margin-left: 15px;
+  border-radius: 8px;
+
+}
+
+.talk-expert-btn:hover {
+  background-color: #FFDD00;
+  border-color: #FFDD00;
+  color: #000;
+}
+
+.talk-expert-btn:active {
+  background-color: #FFDD00 !important;
+  border-color: #FFDD00 !important;
+  color: #000 !important;
+}
+
+.talk-expert-btn:focus-visible {
+  background-color: #FFDD00 !important;
+  border-color: #FFDD00 !important;
+  color: #000 !important;
+}
+
+.talk-expert-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.talk-expert-btn:hover path {
+  fill: #000;
+}
+
+.show-m {
+  display: none !important;
+}
+
+.show-p {
+  display: block;
+}
+
+/* ========================= */
+/* Tablet Styles */
+/* ========================= */
+@media (max-width: 991.98px) {
+  .header-main-bg {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .logo-wh {
+    width: 200px;
+    height: 40px;
+  }
+
+  .navbar-nav .nav-link {
+    padding: 10px 20px !important;
+    width: 100%;
+  }
+
+  .mega-menu-overlay {
+    top: 56px;
+    /* smaller navbar on tablet */
+    height: calc(100vh - 56px);
+    padding: 30px 20px;
+  }
+
+  .talk-expert-btn {
+    margin-left: 0;
+    width: calc(100% - 40px);
+    margin: 10px 20px 20px;
+  }
+}
+
+/* ========================= */
+/* Mobile Styles */
+/* ========================= */
+
+
+@media only screen and (min-width: 200px) and (max-width: 599px) {
+  .show-m {
+    display: block !important;
+  }
+
+  .show-p {
+    display: none;
+  }
+
+  .hed-sti-main {
+    top: 85px;
+  }
+
+  .contact-banner {
+    margin-bottom: 30px;
+  }
+
+  .header-main-bg-sm {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+  .header-main-bg-sm .navbar-brand {
+    width: 160px !important;
+  }
+
+  .header-main-bg {
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #ffff;
+  }
+
+  .logo-wh {
+    width: 150px;
+    height: 30px;
+  }
+
+  .mega-menu-overlay {
+    top: 50px;
+    /* mobile navbar height */
+    height: calc(100vh - 50px);
+    padding: 20px 15px;
+    background-color: transparent;
+    left: -10px;
+  }
+
+  .talk-expert-btn {
+    width: calc(100% - 20px);
+    margin: 10px 10px 20px;
+  }
+
+  .navbar-toggler {
+    color: #fff !important;
+
+  }
+
+  .header-main-bg {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+
+  .close-button {
+    margin-top: 60px !important;
+  }
+
+}

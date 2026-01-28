@@ -1,0 +1,788 @@
+/* Hero */
+.hero-section {
+  position: relative;
+  background-image: url("/images/about/about-banner.jpg");
+  height: 600px;
+  align-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-overlay {
+  color: #fff;
+}
+
+.hero-overlay h1 {
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 54px;
+  padding: 90px 0px 0px 80px;
+}
+
+/* Everything Section  */
+.Everything_main_bg {
+  padding-top: 56px;
+}
+
+.everybtmpd {
+  padding-bottom: 25px;
+}
+
+.everything_sect_title {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 48px;
+  padding-bottom: 30px;
+  color: #000;
+
+}
+
+.history-card {
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  padding: 20px;
+  border: none;
+}
+
+/* Yellow card */
+.history-card.yellow {
+  background-color: #FFDD00;
+}
+
+/* Year badge */
+.year-box {
+  padding: 4px 14px;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 14px;
+  display: inline-block;
+}
+
+.year-box.gray {
+  background-color: #C1C1C1 !important;
+  color: #000;
+}
+
+.year-box.black {
+  background-color: #000 !important;
+  color: #fff;
+}
+
+/* Icons on the right */
+.year-icon {
+  width: 60px;
+  height: auto;
+  opacity: 0.6;
+  /* subtle look */
+}
+
+/* Titles and descriptions */
+.title-small-global {
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 30px;
+  margin-bottom: 10px;
+}
+
+.sub-title-small-global {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #5C5C5C;
+}
+
+.sub-title-small-global-color {
+  color: #000;
+}
+
+/* History */
+.history-card {
+  border-radius: 10px;
+  padding: 20px;
+  border: 1px solid #C1C1C1;
+  background-color: #F5F5F5;
+}
+
+.history-card.yellow {
+  background: #FFDD00;
+}
+
+.year-box {
+  display: inline-block;
+  padding: 6px 20px;
+  border-radius: 20px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.year-box.gray {
+  background: #f2f2f2;
+}
+
+.year-box.black {
+  background: #000;
+  color: #fff;
+}
+
+.sub-title-rights {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  padding-bottom: 30px;
+  color: #181818;
+
+}
+
+/* Company */
+.company-section {
+  padding: 30px 0;
+}
+
+.company-img {
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.stat-card {
+  text-align: left;
+  padding: 28px 27px;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  background-color: #f2f2f2;
+  ;
+}
+
+.stat-card h3 {
+  color: #E31F26;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 28px;
+  letter-spacing: 1.5;
+}
+
+.stat-card-h3-title {
+  color: #181818;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 500;
+
+}
+
+/* Vision & Mission */
+/* Section */
+.vision-mission {
+  position: relative;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background: #4943a6;
+  width: 100%;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+/* Main background image */
+.vm-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+/* Card styles */
+.vm-card {
+  position: relative;
+  background: #fff;
+  border-radius: 12px;
+  padding: 30px;
+  height: 100%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  z-index: 1;
+  overflow: hidden;
+
+}
+
+.ab-bgvi:hover {
+  background-color: #FFDD00;
+
+}
+
+.ab-bgvi:hover .vm-icon {
+  transform: scale(1.5);
+}
+
+.ab-bgvi:hover .vm-icon path {
+  fill: #E31F26;
+}
+
+.ab-bgvi:hover .vm-icon g {
+  opacity: 1;
+}
+
+.vm-card h4 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.vm-card p {
+  font-size: 18px;
+  color: #181818;
+  line-height: 27px;
+  padding-bottom: 50px;
+}
+
+/* bottom-right icon inside card */
+.vm-icon {
+  position: absolute;
+  object-fit: cover;
+  bottom: 0px;
+  right: 0px;
+  width: 242px;
+  height: auto;
+  pointer-events: auto;
+  transition: transform 0.1s ease;
+  z-index: -9;
+
+}
+
+/* Journey */
+.journey-section {
+  padding-top: 60px;
+  padding-bottom: 80px;
+  text-align: center;
+  background-color: #F0F0F0;
+}
+
+.journey-carousel {
+  margin: 40px 0;
+  position: relative;
+  /* Add overflow hidden to clip elements during slide animation */
+  overflow: hidden;
+}
+
+/* --- Override Bootstrap Carousel Transition --- */
+/* Remove default Bootstrap transition so we can control it completely with CSS */
+.carousel-item {
+  /* Ensure Bootstrap doesn't apply its own slow transition */
+  transition: transform 0s ease-in-out !important;
+  transform: translateX(0) !important;
+}
+
+/* Base styles for all slides (Active and Inactive) */
+.journey-slide {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 100px;
+  text-align: center;
+
+  /* The container itself remains opaque */
+  opacity: 1;
+  transition: none;
+}
+
+/* Styles for elements within the slide */
+.journey-slide img {
+  border-radius: 6px;
+  transition: all 0.4s ease;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+/* --- Individual Element Transitions (Shorter, Punchier Timing) --- */
+.journey-slide .side {
+  width: 180px;
+  filter: blur(1px);
+  margin-top: 100px;
+  /* Use a sharp cubic-bezier for aggressive, quick movement */
+  transition: transform 0.25s cubic-bezier(0.1, 0.7, 1.0, 0.1), opacity 0.25s ease-out;
+}
+
+.journey-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 520px;
+}
+
+.journey-center .center {
+  width: 400px;
+  height: auto;
+  object-fit: cover;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  /* Use a sharp cubic-bezier for aggressive, quick movement */
+  transition: transform 0.25s cubic-bezier(0.1, 0.7, 1.0, 0.1), opacity 0.25s ease-out;
+}
+
+.journey-text {
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 500;
+  color: #2C2784;
+  text-align: center;
+  max-width: 700px;
+  /* Text transition can be slightly smoother */
+  transition: transform 0.25s ease-out, opacity 0.25s ease-out;
+}
+
+/* ------------------------------------------------------------------------- */
+/* 0. DEFAULT/REST STATE */
+/* This is the final state for all elements in the active slide */
+.carousel-item .journey-slide .side,
+.carousel-item .journey-slide .journey-center .center,
+.carousel-item .journey-slide .journey-center .journey-text {
+  opacity: 1 !important;
+  /* Default visibility */
+  transform: none;
+  /* Default position */
+  transition-delay: 0s;
+}
+
+/* Sides always have lower opacity in the resting state */
+.journey-slide .side {
+  opacity: .5S;
+}
+
+/* ------------------------------------------------------------------------- */
+
+/* --- A. GOING FORWARD (NEXT SLIDE) --- */
+
+/* 1. OUTGOING SLIDE (.carousel-item-start): Moves to the LEFT and fades out */
+
+/* Old Center Image moves sharply left (simulating it becoming the new left side image) */
+.carousel-item-start.carousel-item-next .journey-slide .journey-center .center {
+  opacity: 0;
+  transform: translateX(-150px) scale(0.8);
+  /* Dramatic move left */
+}
+
+/* Old Right Side Image moves left (simulating it becoming the new center image) */
+.carousel-item-start.carousel-item-next .journey-slide .side:last-child {
+  opacity: 0;
+  transform: translateX(-100px);
+}
+
+/* Old Text moves left and down */
+.carousel-item-start.carousel-item-next .journey-slide .journey-text {
+  opacity: 0;
+  transform: translateY(10px) translateX(-50px);
+}
+
+/* Old Left Side just fades out (since its position is now vacant) */
+.carousel-item-start.carousel-item-next .journey-slide .side:first-child {
+  opacity: 0;
+  transform: translateX(-10px);
+}
+
+
+/* 2. INCOMING SLIDE (.carousel-item-next): Moves in from the RIGHT and fades in */
+
+/* New Center Image moves in from the right */
+.carousel-item-next:not(.carousel-item-start) .journey-slide .journey-center .center {
+  opacity: 0;
+  transform: translateX(150px) scale(0.8);
+  transition-delay: 0s;
+}
+
+/* New Left Side Image moves in from the right (simulating the old center image rolling into this slot) */
+.carousel-item-next:not(.carousel-item-start) .journey-slide .side:first-child {
+  opacity: 0;
+  transform: translateX(50px);
+  transition-delay: 0.05s;
+}
+
+/* New Right Side Image moves in from the right */
+.carousel-item-next:not(.carousel-item-start) .journey-slide .side:last-child {
+  opacity: 0;
+  transform: translateX(100px);
+  transition-delay: 0.1s;
+}
+
+/* New Text moves in from the right and up */
+.carousel-item-next:not(.carousel-item-start) .journey-slide .journey-text {
+  opacity: 0;
+  transform: translateY(10px) translateX(50px);
+  transition-delay: 0.15s;
+}
+
+/* --- B. GOING BACKWARD (PREVIOUS SLIDE) --- */
+
+/* 3. OUTGOING SLIDE (.carousel-item-end): Moves to the RIGHT and fades out */
+
+/* Old Center Image moves sharply right */
+.carousel-item-end.carousel-item-prev .journey-slide .journey-center .center {
+  opacity: 0;
+  transform: translateX(150px) scale(0.8);
+}
+
+/* Old Left Side Image moves right */
+.carousel-item-end.carousel-item-prev .journey-slide .side:first-child {
+  opacity: 0;
+  transform: translateX(100px);
+}
+
+/* Old Right Side just fades out */
+.carousel-item-end.carousel-item-prev .journey-slide .side:last-child {
+  opacity: 0;
+  transform: translateX(10px);
+}
+
+/* Old Text moves right and down */
+.carousel-item-end.carousel-item-prev .journey-slide .journey-text {
+  opacity: 0;
+  transform: translateY(10px) translateX(50px);
+}
+
+/* 4. INCOMING SLIDE (.carousel-item-prev): Moves in from the LEFT and fades in */
+
+/* New Center Image moves in from the left */
+.carousel-item-prev:not(.carousel-item-end) .journey-slide .journey-center .center {
+  opacity: 0;
+  transform: translateX(-150px) scale(0.8);
+  transition-delay: 0s;
+}
+
+/* New Right Side Image moves in from the left */
+.carousel-item-prev:not(.carousel-item-end) .journey-slide .side:last-child {
+  opacity: 0;
+  transform: translateX(-50px);
+  transition-delay: 0.05s;
+}
+
+/* New Left Side Image moves in from the left */
+.carousel-item-prev:not(.carousel-item-end) .journey-slide .side:first-child {
+  opacity: 0;
+  transform: translateX(-100px);
+  transition-delay: 0.1s;
+}
+
+/* New Text moves in from the left and up */
+.carousel-item-prev:not(.carousel-item-end) .journey-slide .journey-text {
+  opacity: 0;
+  transform: translateY(10px) translateX(-50px);
+  transition-delay: 0.15s;
+}
+
+/* ------------------------------------------------------------------------- */
+
+/* FINAL ACTIVE STATE: Elements transition to their final resting position (defined in step 0) */
+/* The final state is implicitly handled by the transition from the initial states above to the default styles (opacity: 1, transform: none) */
+
+
+/* --- REST OF THE CODE REMAINS UNCHANGED --- */
+
+.journey-years {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 25px;
+  flex-wrap: wrap;
+}
+
+.journey-years span {
+  cursor: pointer;
+  color: #848484;
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: 700;
+  transition: all 0.3s ease;
+}
+
+.journey-years .active {
+  color: #E31F26;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 32px;
+  border: 2px solid #e60000;
+  border-radius: 100px;
+}
+
+.year-item {
+  padding: 5px 20px;
+  cursor: pointer;
+}
+
+/* Custom arrow positioning */
+.carousel-control-prev,
+.carousel-control-next {
+  width: auto;
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: 1;
+  /* Always visible */
+}
+
+.carousel-control-prev {
+  left: 0px;
+  /* push arrow outside */
+}
+
+.carousel-control-next {
+  right: 0px;
+}
+
+.carousel-control-prev img,
+.carousel-control-next img {
+  width: 50px;
+  height: 50px;
+}
+
+
+
+
+/* Custom arrow positioning */
+.carousel-control-prev,
+.carousel-control-next {
+  width: auto;
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: 1;
+  /* Always visible */
+}
+
+.carousel-control-prev {
+  left: 0px;
+  /* push arrow outside */
+}
+
+.carousel-control-next {
+  right: 0px;
+}
+
+.carousel-control-prev img,
+.carousel-control-next img {
+  width: 50px;
+  height: 50px;
+}
+
+
+
+/* Support Section */
+/* Section Background and Layout */
+.support-section {
+  background-color: #FFDD00;
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
+
+.section-title {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 48px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #000;
+}
+
+.section-subtitle {
+  font-size: 16px;
+  line-height: 28px;
+  color: #000;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+/* Scrollable container */
+.scroll-container {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  gap: 30px;
+  padding: 20px 0 40px 0px;
+  scroll-snap-type: x mandatory;
+}
+
+/* Each card — 3 per row on desktop */
+.support-card {
+  flex: 0 0 calc((100% / 3) - 20px);
+  max-width: calc((100% / 3) - 20px);
+  background-color: #FFDD00;
+  border: none;
+  flex-shrink: 0;
+  padding: 15px;
+  scroll-snap-align: start;
+}
+
+.support-section-container {
+  margin-right: auto;
+  padding-right: 0;
+}
+
+/* Image styling */
+.image-wrapper img {
+  /* border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px; */
+  width: 100%;
+  height: 390px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+/* Card text */
+.support-card h5 {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 28px;
+  margin-top: 12px;
+  color: #181818;
+}
+
+.support-card p {
+  color: #181818;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+/* Slider footer: arrows + line */
+.slider-footer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 3px;
+}
+
+.slider-controls {
+  display: flex;
+  gap: 10px;
+  z-index: 2;
+}
+
+.arrow-btn {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.arrow-btn img {
+  width: 36px;
+  height: 36px;
+  transition: transform 0.2s ease;
+}
+
+.arrow-btn img:hover {
+  transform: scale(1.1);
+}
+
+.slider-line {
+  flex-grow: 1;
+  height: 1px;
+  background-color: #ccb100;
+  margin-left: 10px;
+  margin-top: 8px;
+}
+
+.mob-show {
+  display: none;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero-img {
+    height: 320px;
+    object-fit: cover;
+  }
+
+  .hero-overlay h1 {
+    font-size: 34px;
+    line-height: 40px;
+  }
+
+  .section-title {
+    font-size: 30px;
+    line-height: 36px;
+    padding-bottom: 30px;
+  }
+
+  .journey-years {
+    gap: 20px;
+  }
+
+  .vandmm {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+
+  .journey-text {
+    padding: 20px;
+
+  }
+
+}
+
+/* Small devices (Mobile phones, 300px and above) */
+@media only screen and (min-width: 300px) and (max-width: 599px) {
+  .hero-overlay {
+    margin-left: 20px;
+  }
+
+  .mob-show {
+    display: flex;
+  }
+
+  .everything_bg_img {
+    display: none;
+  }
+
+  .hero-overlay h1 {
+    padding: 0px 0 0 0px;
+  }
+
+  .hero-section {
+    height: 300px;
+  }
+
+  .journey-center .center {
+    width: 247px;
+  }
+
+  .section-title {
+    padding-bottom: 0px;
+  }
+
+  .journey-carousel {
+    margin: 20px 0;
+  }
+
+  .stat-card-h3-title {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .stat-card h3 {
+    font-size: 30px;
+    line-height: 28px;
+  }
+
+  .support-section-container {
+    padding-right: 10px !important;
+  }
+
+  .Everything_main_bg {
+    padding-top: 30px
+  }
+
+  .everything_sect_title {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+
+@media (max-width: 992px) {
+  .support-card {
+    flex: 0 0 calc((100% / 2) - 15px);
+    max-width: calc((100% / 2) - 15px);
+  }
+}
+
+@media (max-width: 600px) {
+  .support-card {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}

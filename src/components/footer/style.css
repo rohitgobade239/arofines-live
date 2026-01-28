@@ -1,0 +1,244 @@
+/* ================================
+   Footer - Base Styles
+================================== */
+.ftmain {
+  background: #fff;
+  padding: 50px 0 30px;
+}
+
+.ft-social-main a {
+  display: inline-block;
+}
+
+.socialmediaclr {
+  transition: filter 0.3s ease;
+}
+
+.ft-social-main a:hover .socialmediaclr {
+  filter: invert(0%) sepia(100%) saturate(100%) hue-rotate(0deg) brightness(0%) contrast(100%);
+}
+
+.whatsapp-link {
+  display: inline-block;
+  transition: color 0.3s ease;
+  color: #c1c1c1;
+}
+
+.whatsapp-link:hover {
+  color: #000;
+}
+
+.ftgap {
+  padding: 10px 12px;
+  line-height: 36px;
+}
+
+.comftrcus {
+  padding-left: 130px;
+}
+
+.unrline {
+  text-decoration: underline;
+}
+
+.ft-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 15px;
+}
+
+.ft-link {
+  color: #7c7c7c;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.ft-link:hover {
+  text-decoration: underline;
+}
+
+.ft-section1 {
+  font-size: 14px;
+  line-height: 22px;
+  color: #181818;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.ft-social-main {
+  display: flex;
+  gap: 12px;
+  margin-top: 15px;
+}
+
+.ft-logo {
+  display: block;
+  width: 232px;
+  height: 47px;
+  object-fit: cover;
+}
+
+.copyright-border {
+  border: 0;
+  border-top: 2px solid #ccc;
+  margin: 30px 0;
+}
+
+.ft-copyright {
+  font-size: 13px;
+  color: #7c7c7c;
+  text-align: left;
+}
+
+.ft-copyright .sep {
+  margin: 0 8px;
+  color: #888;
+}
+
+.sep {
+  display: inline-block;
+  width: 2px;
+  height: 2px;
+  background-color: #7c7c7c;
+  /* dot color */
+  border-radius: 50%;
+  margin: 0 6px;
+}
+
+.ft-emaildot {
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  background-color: #000;
+  /* dot color */
+  border-radius: 50%;
+  margin: 0 6px;
+}
+
+.footer-don {
+  display: contents;
+}
+
+/* ================================
+   Responsive - Tablet & Mobile
+================================== */
+
+/* Tablet: up to 991px */
+@media (max-width: 991px) {
+  .ftmain {
+    padding: 30px 15px;
+    text-align: center;
+  }
+
+  .ftgap {
+    padding: 15px 0;
+  }
+
+  .ft-logo {
+    margin: 0 auto 20px;
+  }
+
+  .ft-section1 {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .ft-social-main {
+    justify-content: center;
+  }
+
+  .aboutsec3,
+  .aboutsec4 {
+    text-align: center;
+  }
+
+  .ft-title {
+    margin-top: 20px;
+  }
+}
+
+/* Mobile: up to 767px */
+@media (max-width: 767px) {
+  .ftmain {
+    padding: 25px 10px;
+    background-color: #fff;
+  }
+
+  .ftgap {
+    padding: 10px 0;
+  }
+
+  .ft-section1 {
+    font-size: 13px;
+    line-height: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .ft-link {
+    font-size: 13px;
+    line-height: 22px;
+  }
+
+  .ft-social-main {
+    gap: 10px;
+    margin-top: 12px;
+  }
+
+  .ft-logo {
+    width: 200px;
+    height: auto;
+  }
+
+  .ft-title {
+    font-size: 15px;
+  }
+
+  .ft-copyright {
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+  }
+}
+
+/* Small devices (Mobile phones, 300px and above) */
+@media only screen and (min-width: 300px) and (max-width: 599px) {
+  .ftmain {
+    padding: 10px 26px;
+  }
+
+  .ft-title {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    text-align: left;
+  }
+
+  .invisible {
+    display: none;
+  }
+
+  .ftgap {
+    padding: 10px 0;
+    line-height: 28px;
+    text-align: left;
+  }
+
+  .footer-don {
+    width: 70%;
+    padding-top: 10px;
+    display: block;
+  }
+
+  .footer-don-1 {
+    width: 30%;
+    padding-top: 20px;
+  }
+
+  .aboutsec4 {
+    padding-top: 0px;
+    margin-top: -10px;
+  }
+}

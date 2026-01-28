@@ -1,0 +1,31 @@
+[
+  {
+    "id": "job-001",
+    "title": "Assistant Manager",
+    "category": "Business",
+    "location": "Bhosari",
+    "datePosted": "2025-12-17",
+    "type": "Full-time",
+    "link": "/careers/assistant-manager"
+  },
+   {
+    "id": "job-002",
+    "title": "Area Sales Manager",
+    "category": "Business",
+    "location": "Ahmedabad",
+    "datePosted": "2025-12-17",
+    "type": "Full-time",
+    "link": "/careers/area-sales-manager-ahmedabad"
+  } , 
+
+     {
+   "id": "job-003",
+    "title": "Area Sales Manager",
+    "category": "Business",
+    "location": "Hyderabad",
+    "datePosted": "2025-12-17",
+    "type": "Full-time",
+    "link": "/careers/area-sales-manager-hyderabad"
+  }  
+  
+]

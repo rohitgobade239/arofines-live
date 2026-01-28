@@ -1,0 +1,571 @@
+input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(39%) sepia(86%) saturate(2349%) hue-rotate(203deg) brightness(94%) contrast(91%);
+}
+
+.collaborate-cust-section {
+  padding: 60px 0;
+  background: #ffffff;
+}
+
+/* Heading */
+.collaborate-cust-heading {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.collaborate-cust-heading h2 {
+  font-size: 36px;
+  font-weight: 500;
+  color: #000;
+  line-height: 48px;
+}
+
+.collaborate-cust-heading p {
+  color: #5C5C5C;
+  margin-top: 8px;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+}
+
+/* Cards */
+.collaborate-cust-cards {
+  row-gap: 24px;
+}
+
+.collaborate-cust-card {
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  height: 100%;
+}
+
+.collaborate-cust-card-content {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.collaborate-cust-icon-box {
+  width: 44px;
+  height: 44px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.collaborate-cust-card-content span {
+  color: #000;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+}
+
+/* Advantage Banner */
+.collaborate-cust-advantage {
+  margin-top: 60px;
+  padding: 40px 50px;
+  border-radius: 18px;
+  text-align: center;
+  background-image: url("/images/form/CTA.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+.collaborate-cust-advantage-label {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 42px;
+  color: #000;
+}
+
+.collaborate-cust-advantage h3 {
+  color: #E31F26;
+  margin-top: 6px;
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: 700;
+}
+
+.collaborate-cust-advantage p {
+  margin-top: 15px;
+  font-size: 22px;
+  line-height: 26px;
+  color: #000;
+}
+
+/* Footer */
+.collaborate-cust-footer {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.collaborate-cust-footer h3 {
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 48px;
+  color: #000;
+}
+
+.collaborate-cust-footer p {
+  color: #5C5C5C;
+  margin-top: 6px;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+/* ===============================
+   Collaborate Banner Text Styles
+   =============================== */
+
+.collaborate-banner-content {
+  padding-left: 80px;
+}
+
+/* Title */
+.collaborate-banner-title {
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 52px;
+  color: #ffffff;
+  margin: 0 0 16px 0;
+}
+
+/* Subtitle text */
+.collaborate-banner-text {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #fff;
+  max-width: 400px;
+  margin: 0;
+}
+
+/* ===============================
+   Responsive (Tablet & Mobile)
+   =============================== */
+@media (max-width: 991px) {
+  .collaborate-banner-content {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .collaborate-cust-card-content span {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .collaborate-cust-advantage h3 {
+    font-size: 28px;
+    line-height: 38px;
+  }
+
+  .collaborate-cust-advantage p {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .collaborate-cust-heading h2 {
+    font-size: 32px;
+    line-height: 42px;
+  }
+
+  .collaborate-banner-title {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .collaborate-banner-text {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+/* ===============================
+   Small Mobile Optimization
+   =============================== */
+/* Mobile (<=575px) */
+@media (max-width: 575px) {
+  .collaborate-cust-section {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .collaborate-cust-cards {
+    grid-template-columns: 1fr;
+    row-gap: 15px;
+  }
+
+  .collaborate-cust-heading h2 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .collaborate-cust-heading p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .collaborate-cust-card-content span {
+    font-size: 14px;
+  }
+
+  .collaborate-cust-advantage {
+    padding: 20px 15px;
+  }
+
+  .collaborate-cust-advantage-label {
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  .collaborate-cust-advantage h3 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .collaborate-cust-advantage p {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .collaborate-cust-footer h3 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .collaborate-cust-footer p {
+    font-size: 13px;
+    line-height: 20px;
+  }
+
+  .collaborate-banner-content {
+    padding-left: 10px;
+  }
+
+  .collaborate-banner-title {
+    font-size: 28px;
+    line-height: 38px;
+  }
+
+  .collaborate-banner-text {
+    font-size: 14px;
+    line-height: 20px;
+    max-width: 100%;
+  }
+}
+
+
+
+
+.form-column-gap {
+  --bs-gutter-x: 40px !important;
+  /* Horizontal gap between columns */
+  --bs-gutter-y: 40px;
+  /* Optional vertical gap between rows */
+}
+
+.next-btn-dealership,
+.submit-btn-dealership {
+  background-color: #E01E2E;
+  border: 1px solid #E01E2E;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  color: white;
+  padding: 10px 20px;
+  font-size: 17px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.next-btn-dealership,
+.submit-btn-dealership:hover {
+  background-color: #f21023;
+  border: 1px solid #f21023;
+}
+
+.next-btn-dealership,
+.submit-btn-dealership:focus-visible {
+
+  border: 1px solid #E01E2E !important;
+
+}
+
+.next-btn-dealership,
+.submit-btn-dealership:active {
+  background-color: #E01E2E !important;
+  border: 1px solid #E01E2E !important;
+}
+
+.previous-btn-dealership,
+.Previous-submit-btn-deal {
+  background-color: #D9D9D9;
+  border: 1px solid #D9D9D9;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  color: #4B4B4A;
+  padding: 10px 20px;
+  font-size: 17px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.previous-btn-dealership,
+.Previous-submit-btn-deal:hover {
+  background-color: #D9D9D9;
+  border: 1px solid #D9D9D9;
+  color: #4B4B4A;
+}
+
+.previous-btn-dealership,
+.Previous-submit-btn-deal:focus-visible {
+
+  border: 1px solid #D9D9D9 !important;
+  color: #4B4B4A !important;
+
+}
+
+.previous-btn-dealership,
+.Previous-submit-btn-deal:active {
+  background-color: #D9D9D9 !important;
+  border: 1px solid #D9D9D9 !important;
+  color: #4B4B4A !important;
+}
+
+.form-control:focus,
+.form-select:focus {
+  box-shadow: none !important;
+}
+
+::placeholder {
+  color: #BCBCBC !important;
+  font-size: 15px !important;
+  line-height: 22px !important;
+  font-weight: 400 !important;
+}
+
+:-ms-input-placeholder {
+  color: #BCBCBC !important;
+  font-size: 15px !important;
+  line-height: 22px !important;
+  font-weight: 400 !important;
+}
+
+::-ms-input-placeholder {
+  color: #BCBCBC !important;
+  font-size: 15px !important;
+  line-height: 22px !important;
+  font-weight: 400 !important;
+}
+
+::-webkit-input-placeholder {
+  color: #BCBCBC !important;
+  font-size: 15px !important;
+  line-height: 22px !important;
+  font-weight: 400 !important;
+}
+
+.form-label,
+.form-select {
+  font-size: 15px;
+  line-height: 22px;
+  color: #181818;
+  font-weight: 400;
+}
+
+
+/* Start Section */
+.dealership-form-main {
+  background-color: #fff;
+  padding-bottom: 80px;
+}
+
+/* ================================
+   Banner Section
+================================ */
+.banner-section {
+  background: url("/images/form/DealerBanner.jpg") center/cover no-repeat;
+  position: relative;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.banner-overlay {
+  background-color: rgba(0, 0, 0, 0.1);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  color: #fff;
+  text-align: left;
+  padding: 0 20px;
+}
+
+/* ================================
+   General Layout
+================================ */
+.main-sectiondealer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+
+.custom-card-body {
+  margin: 0;
+  /* Remove margin */
+  padding: 36px;
+  /* Remove padding */
+  border-radius: 16px #fff;
+}
+
+.title-main-dealer {
+  font-size: 36px;
+  line-height: 48px;
+  font-weight: 500;
+  color: #000000;
+  text-align: center;
+}
+
+.sub-title-main-dealer {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #5C5C5C;
+  text-align: center;
+  padding-bottom: 40px;
+
+}
+
+
+/* ================================
+   Stepper (Image-Matched Design)
+================================ */
+.stepper-header {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+/* Header Top Section */
+.stepper-header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wizard-title {
+  color: #000;
+  font-size: 26px;
+  line-height: 30px;
+  padding-bottom: 10px;
+  padding-top: 40px;
+}
+
+.tilte-form-four {
+  font-size: 24px;
+  line-height: 26px;
+  color: #000;
+  padding-top: 10px;
+  padding-bottom: 20px;
+
+
+}
+
+.wizard-subtitle {
+  font-size: 15px;
+  color: #6b7280;
+}
+
+.wizard-step-count {
+  font-size: 15px;
+  font-weight: 500;
+  color: #6b7280;
+}
+
+/* Progress Bar */
+.progress-bar-track-single {
+  height: 8px;
+  background-color: #e5e7eb;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.progress-fill-single {
+  height: 8px;
+  background-color: #25D366;
+  /* blue */
+  border-radius: 6px;
+  transition: width 0.3s ease-in-out;
+}
+
+.desktop-only {
+  display: block;
+}
+
+.mobile-only {
+  display: none;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 599px) {
+  .desktop-only {
+    display: none;
+  }
+
+  .mobile-only {
+    display: block;
+  }
+
+  .collaborate-cust-section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+
+/* Responsive Banner */
+@media (max-width: 768px) {
+  .banner-section {
+    height: 300px;
+  }
+
+  .title-main-dealer {
+    font-size: 32px;
+    line-height: 38px;
+  }
+
+  .step-label-bottom {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .step-label-top {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .next-btn-dealership,
+  .submit-btn-dealership {
+    padding: 10px 14px;
+  }
+
+  .custom-card-body {
+    padding: 30px;
+  }
+
+  .form-column-gap {
+    --bs-gutter-x: 20px !important;
+    /* Horizontal gap between columns */
+    --bs-gutter-y: 20px;
+  }
+
+}

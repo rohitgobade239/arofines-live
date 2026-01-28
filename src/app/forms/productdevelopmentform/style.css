@@ -1,0 +1,495 @@
+input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(39%) sepia(86%) saturate(2349%) hue-rotate(203deg) brightness(94%) contrast(91%);
+}
+
+
+.product-form-main{
+    background-color: #f5f5f5;
+  padding-bottom: 80px;
+
+}
+.product-box-form{
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 30px;
+
+}
+
+/* Tanank you Message Start */
+.thankyou-container {
+  padding-top: 100px;
+}
+
+.thankyou-title {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: #000000;
+}
+
+.thankyou-subtitle {
+  font-weight: 400;
+  font-size: 14px;
+  color: #7C7C7C;
+  line-height: 24px;
+  max-width: 700px;
+  margin: 10px auto 0;
+}
+
+/* Buttons layout */
+.btn-explore {
+  color: #191919;
+  font-weight: 500;
+  text-decoration: none;
+  position: relative;
+  transition: color 0.3s ease;
+  line-height: 24px;
+}
+
+.btn-explore:hover {
+  transform: scale(1.1);
+}
+
+/* Underline animation for the explore link */
+.btn-explore::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background-color: #191919;
+  bottom: -5px;
+  left: 0;
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  transition: transform 0.3s ease;
+}
+
+.btn-explore:hover::after {
+  transform: scaleX(1);
+}
+
+.thankyou-expert-btn {
+  background-color: #E01E2E;
+  border: none;
+  color: #fff;
+  font-weight: 400;
+  font-size: 15px;
+  padding: 10px 24px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.thankyou-expert-btn:hover {
+  background-color: #fd0;
+  color: #000;
+  border-color: #FFDD00;
+}
+
+.thankyou-arrow {
+  font-size: 16px;
+  transition: transform 0.2s ease;
+}
+
+.thankyou-explore-btn:hover .thankyou-arrow {
+  transform: translateX(4px);
+}
+
+.tilte-form-four{
+  font-size: 24px;
+  line-height: 26px;
+  color: #000;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  
+}
+.talk-expert-btn:hover {
+  background-color: #FFDD00;
+  border-color: #FFDD00;
+  color: #000;
+}
+
+.talk-expert-icon {
+  width: 24px;
+  height: 24px;
+}
+.talk-expert-btn:hover path{
+  fill: #000;
+}
+.thank-btn-gap{
+  gap: 40px;
+}
+/* Tanank you Message End */
+
+.next-btn-dealership,
+.submit-btn-dealership {
+  background-color: #E01E2E;  
+  border: 1px solid #E01E2E;
+  display: flex;
+  align-items: center;  
+  border-radius: 8px;         
+  color: white;              
+  padding: 8px 20px!important;         
+  font-size: 17px;            
+  cursor: pointer;            
+  transition: background-color 0.3s ease; 
+}
+
+.next-btn-dealership,.submit-btn-dealership:hover {
+  background-color: #f21023;   
+  border: 1px solid #f21023; 
+}
+.next-btn-dealership,.submit-btn-dealership:focus-visible {
+ 
+  border: 1px solid #E01E2E!important;
+
+}
+
+.next-btn-dealership,.submit-btn-dealership:active {
+  background-color: #E01E2E!important;  
+   border: 1px solid #E01E2E!important; 
+}
+
+.previous-btn-dealership,.Previous-submit-btn-deal {
+  background-color: #D9D9D9;  
+  border: 1px solid #D9D9D9;  
+  border-radius: 8px;    
+  display: flex;
+  align-items: center;      
+  color: #4B4B4A;              
+  padding: 8px 20px!important;        
+  font-size: 17px;            
+  cursor: pointer;            
+  transition: background-color 0.3s ease; 
+}
+
+.previous-btn-dealership,.Previous-submit-btn-deal:hover {
+  background-color: #D9D9D9;  
+  border: 1px solid #D9D9D9;
+  color: #4B4B4A;
+}
+
+.previous-btn-dealership,.Previous-submit-btn-deal:focus-visible {
+
+  border: 1px solid #D9D9D9!important;
+  color: #4B4B4A!important;
+
+}
+
+.previous-btn-dealership,.Previous-submit-btn-deal:active {
+  background-color: #D9D9D9!important;  
+   border: 1px solid #D9D9D9!important;
+  color: #4B4B4A!important;
+}
+
+.form-control:focus,
+.form-select:focus {
+  box-shadow: none !important;
+}
+  ::placeholder {
+  color: #BCBCBC!important;
+  font-size: 15px!important;
+  line-height: 22px!important;
+  font-weight: 400!important;
+  }
+  .custom-placehold{
+  color: #181818;
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 400;
+  }
+  :-ms-input-placeholder { 
+   color: #BCBCBC!important;
+  font-size: 15px!important;
+  line-height: 22px!important;
+  font-weight: 400!important;
+  }
+
+  ::-ms-input-placeholder { 
+    color: #BCBCBC!important;
+  font-size: 15px!important;
+  line-height: 22px!important;
+  font-weight: 400!important;
+  }
+
+  ::-webkit-input-placeholder { 
+     color: #BCBCBC!important;
+  font-size: 15px!important;
+  line-height: 22px!important;
+  font-weight: 400!important;   
+  }
+.form-label,
+.form-select{
+  font-size: 15px;
+  line-height: 22px;
+  color: #181818;
+  font-weight: 400;
+}
+.form-check-label{
+  font-size: 15px;
+  line-height: 22px;
+  color: #181818;
+  font-weight: 400;
+}
+
+/* Start Section */
+.dealership-form-main{
+  background-color: #f5f5f5;
+  padding-bottom: 80px;
+}
+/* ================================
+   Banner Section
+================================ */
+.banner-section {
+  background: url("/images/form/ProductBanner.jpg") center/cover no-repeat;
+  position: relative;
+  height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.banner-overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+  padding: 0 20px;
+}
+
+/* ================================
+   General Layout
+================================ */
+.main-sectiondealer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+ }
+
+ .form-main-cst{
+  margin-top: -160px;
+
+ }
+
+ .custom-card-body {
+  margin: 0;  /* Remove margin */
+  padding: 36px; /* Remove padding */
+  border-radius: 16px #fff;
+}
+.title-main-product{
+  font-size: 36px;
+  line-height: 48px;
+  font-weight: 500;
+  color: #000000;
+  text-align: center;
+}
+.sub-title-main-product{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #5C5C5C;
+  text-align: center;
+  padding-bottom: 30px;
+
+}
+/* ================================
+   Stepper Layout: Step → Bar → Title
+================================ */
+.stepper-container-custom {
+  position: relative;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+/* Step Numbers (Top Row) */
+.progress-bar-labels {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.step-label-container {
+  text-align: center;
+  flex: 1;
+}
+
+.progress-bar-labels .step-label-container:first-child {
+  text-align: left;
+}
+.progress-bar-labels .step-label-container:last-child {
+  text-align: right;
+}
+
+/* Step Title Row (Bottom Row) */
+.progress-bar-titles {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.progress-bar-titles .step-label-container:first-child {
+  text-align: left;
+}
+.progress-bar-titles .step-label-container:last-child {
+  text-align: right;
+}
+
+/* Step Label Texts */
+.step-label-top {
+  font-size: 12px;
+  color: #BCBCBC;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+}
+
+.step-label-bottom {
+  font-size: 13px;
+  color: #BCBCBC;
+  font-weight: 600;
+  line-height: 16px;
+  text-align: left;
+}
+
+.step-label-container.active .step-label-bottom {
+  color: #000;
+  font-weight: 600;
+  line-height: 16px;
+   font-size: 13px;
+   text-align: left;
+}
+
+/* ============================
+   Wizard Header & Progress Bar
+============================ */
+.wizard-header {
+  width: 100%;
+}
+
+.wizard-title {
+  color: #000; 
+  font-size: 26px;
+  line-height: 30px;
+  padding-bottom: 20px;
+  padding-top: 40px;
+}
+
+.wizard-subtitle {
+  color: #6c757d; /* muted gray subtitle */
+  font-size: 0.95rem;
+}
+
+.wizard-step-count {
+  font-size: 0.95rem;
+}
+
+/* --- Progress Bar --- */
+.wizard-progress {
+  position: relative;
+  height: 8px;
+  background-color: #e9ecef;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.wizard-progress-fill {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: #25D366; /* green accent */
+  transition: width 0.4s ease;
+  border-radius: 4px;
+}
+
+
+/* --- BUTTON STYLES (Matching your screenshots) --- */
+
+.previous-btn-dealership {
+    /* Previous Button: Light Gray background with dark text */
+    background-color: #e0e0e0 !important; 
+    border-color: #e0e0e0 !important;
+    color: #495057 !important;
+    font-weight: 600;
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.5rem;
+}
+
+.submit-btn-red {
+    /* Submit Button: Red background with white text */
+    background-color: #e01e2e !important; 
+    border-color: #e01e2e !important;
+    color: white !important;
+    font-weight: 600;
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.5rem;
+}
+
+/* Responsive Banner */
+@media (max-width: 768px) {
+  .banner-section {
+    height: 300px;
+  }
+  .product-box-form{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .title-main-product{
+    font-size: 28px;
+    line-height: 36px;
+     }
+  .step-label-bottom{
+    font-size: 8px;
+    line-height: 13px;
+  }
+  .step-label-top{
+    font-size:8px;
+    line-height: 13px;
+  }
+  .step-label-container.active .step-label-bottom{
+    font-size: 8px;
+    line-height: 13px;
+
+  }
+  .next-btn-dealership, .submit-btn-dealership, .previous-btn-dealership,.Previous-submit-btn-deal{
+    padding: 5px 16px;
+    font-size: 14px;
+
+  
+  }
+  .custom-card-body{
+    padding: 30px;
+  }
+
+}
+
+/* Small devices (Mobile phones, 300px and above) */ 
+@media only screen and (min-width: 300px) and (max-width: 599px) { 
+  .product-box-form{
+    padding: 20px;
+  }
+  .title-main-product{
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .product-box-form .card-body{
+    padding: 0px !important;
+  }
+  #productName,#productDescription, #viscosity,#ph,#endUser,#applicationClimate,#positioning,#benchmark{
+    margin-bottom: 15px;  
+  }
+ }
+
+/* Medium devices (Tablets, 600px and above) */ 
+@media only screen and (min-width: 600px) and (max-width: 899px) {  }

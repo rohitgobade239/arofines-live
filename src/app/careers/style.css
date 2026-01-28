@@ -1,0 +1,737 @@
+/* HERO */
+
+.careers-main-pmall {
+  padding-top: 0px;
+  padding-bottom: 70px;
+
+}
+
+.careers-hero {
+  background-image: url('/images/carrers/carrerbgimg.png'); /* Replace with the actual path */
+  background-size: cover;
+  background-position: center;
+  height: 600px; /* Full viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  color: #000;
+  margin-bottom: 60px;
+}
+
+.hero-content {
+  z-index: 2;
+  text-align: center;
+  max-width: 80%; /* Adjust text width for readability */
+}
+
+.Currently-no-openings {
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 600;
+  color: #000;
+  text-align: center;
+padding-top: 50px;
+padding-bottom: 70px;
+}
+
+.hero-content h1 {
+  font-size: 36;
+  font-weight: bold;
+  line-height: 48px;
+  width: 700px;
+  text-align: center;
+  justify-content: center;
+}
+.title-banner-txt{
+  margin-top: -100px;
+}
+
+.highlight {
+  color: #e31f26; 
+}
+
+.hero-content p {
+  font-size: 19px;
+  line-height: 26px;
+  color: #000000;
+  margin-top: 10px;
+}
+
+/* MISSION */
+.careers-mission {
+  padding-top: 0px;
+  background: #fff;
+  padding-bottom: 40px;
+}
+
+.our-misvis-title {
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 48px;
+  color: #000;
+}
+
+.our-misvis-subtitle {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #5C5C5C;
+}
+
+.video-thumbnail {
+  position: relative;
+  max-width: 1000px;
+  margin: 30px auto;
+}
+
+.video-thumbnail iframe {
+  width: 100%;
+  border-radius: 24px;
+ border: 1px solid #ffffff69;
+ }
+
+/* ------------------------------
+   HOW WE HIRE SECTION
+--------------------------------*/
+.how-we-hire-section {
+  background-color: #F0F0F0;
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
+
+.how-we-hire-section .section-heading {
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 48px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.how-we-hire-section .section-sub {
+  color: #5C5C5C;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  margin-bottom: 40px;
+}
+
+.hire-cards {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+/* CARD BASE STYLE */
+.hire-card {
+  border-radius: 16px;
+  width: 250px;
+  height: 350px;
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding-left: 30px;
+}
+
+.hire-card:hover{
+  padding-left: 18px;
+  font-size: 24px;
+  padding-top: 204px;
+}
+
+/* .hire-card:hover {
+  transform: translateY(-5px);
+} */
+
+/* Step-specific classes for the cards */
+.hire-card-application {
+  background-color: #FFDD00;
+  color: #111;
+}
+
+.hire-card-screening {
+  background-color: #FFDD00;
+  color: #111;
+}
+
+.hire-card-interview {
+  background-color: #FFDD00;
+  color: #111;
+}
+
+.hire-card-onboarding {
+  background-color: #FFDD00;
+  color: #111;
+}
+
+/* Icon Styles */
+.hire-card-icon {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.hire-card-icon img {
+  width: 50px;
+  height: 50px;
+}
+
+/* Title Styles */
+.application-title, .screening-title, .interview-title, .onboarding-title {
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: -66px;
+  padding-top: 15px;
+}
+
+
+
+/* Unique Number Styles for Each Box */
+.application-number {
+  color: #fff;
+  font-size: 290px;
+  font-weight: 600;
+  transition: all 0.3s;
+  position: absolute;
+  bottom: -117px;
+  right: -30px;
+}
+
+.screening-number {
+  color: #fff;
+  font-size: 290px;
+  font-weight: 600;
+  transition: all 0.4s;
+  position: absolute;
+  bottom: -118px;
+  right: -0px;
+}
+
+.interview-number {
+  color: #fff;
+  font-size: 290px;
+  font-weight: 600; 
+  transition: all 0.3s;
+  position: absolute;
+  bottom: -120px;
+  right: 0px;
+}
+
+.onboarding-number {
+  color: #fff;
+  font-size: 290px;
+  font-weight: 600;
+  transition: all 0.3s;
+  position: absolute;
+  bottom: -117px;
+  right: -22px;
+}
+
+/* Hover Effects for Each Box */
+.hire-card-application:hover .application-number {
+  right: -46px;
+  color: #ffd500;
+  font-size: 290px;
+}
+
+.hire-card-screening:hover .screening-number {
+  right: -14px;
+  color: #ffd500;
+  font-size: 290px;
+}
+
+.hire-card-interview:hover .interview-number {
+  right: -16px;
+  color: #ffd500;
+  font-size: 290px;
+}
+
+.hire-card-onboarding:hover .onboarding-number {
+  right: -28px;
+  color: #ffd500;
+   font-size: 290px;
+}
+
+.hire-card-application:hover .hire-card-icon,
+.hire-card-screening:hover .hire-card-icon,
+.hire-card-interview:hover .hire-card-icon,
+.hire-card-onboarding:hover .hire-card-icon {
+   display: none;
+  transition: opacity 0.1s ease; 
+}
+
+
+/* Hover Background Image Styles for each card */
+.hire-card-application:hover {
+  background-image: url('/images/carrers/career_1_application.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.hire-card-screening:hover {
+  background-image: url('/images/carrers/career_2_screening.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.hire-card-interview:hover {
+  background-image: url('/images/carrers/career_3_interview.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.hire-card-onboarding:hover {
+  background-image: url('/images/carrers/career_4_onboaring.png');
+  background-size: cover;
+  background-position: center;
+}
+
+
+/* Media Queries for Responsiveness */
+@media (max-width: 991px) {
+  .hire-card {
+    width: 45%;
+  }
+}
+
+@media (max-width: 600px) {
+  .hire-card {
+    width: 80%;
+    height: 280px;
+  }
+
+  .application-number,
+  .screening-number,
+  .interview-number,
+  .onboarding-number {
+    font-size: 100px;
+  }
+}
+
+
+/* OUR VALUES */
+.careers-values {
+  padding: 60px 0;
+  text-align: center;
+}
+
+.our-value-section-title {
+  color: #000;
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.our-value-section-sub {
+  color: #5c5c5c;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 50px;
+}
+
+.value-cards {
+  display: flex;
+  justify-content: center;
+  align-items: stretch; /* ensures same height for all columns */
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.value-card {
+  flex: 1 1 260px;
+  max-width: 380px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  min-height: 340px; /* makes height equal */
+  padding: 10px;
+}
+
+.value-img {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+
+.value-title {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 8px;
+  color: #000;
+}
+
+.value-text {
+  font-size: 14px;
+  color: #666;
+  line-height: 22px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+/* ✅ Responsive for mobile */
+@media (max-width: 992px) {
+  .value-cards {
+    gap: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .value-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .value-card {
+    min-height: auto;
+  }
+}
+
+
+/* JOBS */
+.careers-main {
+  padding-top: 0px;
+  padding-bottom: 36px;
+  background-color: #fff;
+}
+
+.careers-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #000;
+}
+
+.careers-subtitle {
+  color: #555;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.btn:first-child:active:focus-visible{
+  background-color: #E01E2E;
+  box-shadow: none;
+  color: #9a9a9a;
+}
+
+
+.btn:focus-visible{
+  background-color: #E01E2E;
+ box-shadow: none;
+ color: #9a9a9a;
+}
+.btn.active:focus-visible{
+  box-shadow: none;
+  color: #9a9a9a;
+}
+.btn.active, .btn.show, .btn:first-child:active, :not(.btn-check) + .btn:active{
+  background-color: #f0f0f0;
+  color: #9a9a9a;
+}
+
+
+
+/* Search Row */
+.search-row {
+  gap: 20px;
+}
+.main-search-bg{
+  width: 41%;
+}
+.location-all-btn{
+  width: 22%;
+}
+
+.psted-all-btn{
+  width: 22%;
+}
+.search-with-btn{
+ width: 10%;
+}
+
+
+.search-input,
+.search-select {
+  border: 1px solid #BCBCBC;
+  border-radius: 6px;
+  height: 44px;
+  font-size: 15px;
+  padding: 10px 12px;
+}
+
+.form-select{
+  color: #BCBCBC;
+}
+
+.form-control:focus {
+    color: inherit;                
+    background-color: inherit;    
+    border-color: inherit;         
+    outline: none;                 
+    box-shadow: none;             
+}
+
+.form-select:focus {
+    border-color: inherit;
+    outline: inherit;
+    box-shadow: inherit;
+}
+.search-btn {
+  background-color: #E01E2E;
+  border: none;
+  font-weight: 700;
+  font-size: 17px;
+  height: 44px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-btn:hover {
+  background-color: #E01E2E;
+}
+
+.text-muted {
+    color: #7C7C7C;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+/* Category Buttons */
+.category-btn {
+  background: #F0F0F0;
+  color: #9A9A9A;
+  border: none;
+  border-radius: 10px;
+  padding: 8px 18px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+.category-btn.active,
+.category-btn:hover {
+  background: #000;
+  color: #fff;
+}
+
+/* Job Cards */
+.job-card {
+  background: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  padding: 15px 0;
+}
+
+.job-card:hover {
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+}
+
+.job-title {
+  font-size: 21px;
+  line-height: 30px;
+  font-weight: 500;
+  color: #191919;
+  margin-bottom: 20px;
+}
+
+.job-readmore {
+  color: #191919;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration: none;
+  border-bottom: 2px solid #000;
+  padding-bottom: 2px;
+}
+
+.job-card:hover .job-readmore {
+  color: #d8232a;
+  border-color: #d8232a;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .careers-title {
+    font-size: 26px;
+  }
+  .category-bar {
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    scroll-behavior: smooth;
+  }
+  .category-bar::-webkit-scrollbar {
+    display: none;
+  }
+  
+.main-search-bg{
+  width: 100%;
+}
+.location-all-btn{
+ width: 100%;
+}
+
+.psted-all-btn{
+  width: 100%;
+}
+.search-with-btn{
+  width: 100%;
+}
+
+.careers-hero {
+  background-image: url('/images/carrers/carrerbgimg.png'); /* Replace with the actual path */
+  background-size: cover;
+  background-position: center;
+  height: 412; /* Full viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.hire-card{
+  width: 46%;
+}
+
+.application-number{
+   bottom: 0px;
+  margin-right: 28px;
+}
+
+.hire-card-interview:hover .interview-number{
+  right: -6px;
+  font-size: 100px;
+}
+.hire-card-application:hover .application-number{
+  right: -28px;
+  font-size: 100px;
+}
+.hire-card-screening:hover .screening-number{
+  right: 0px;
+  font-size: 100px;
+}
+.hire-card-interview:hover .interview-number{
+  right: -6px;
+  font-size: 100px;
+}
+.hire-card-onboarding:hover .onboarding-number{
+  right: -12px;
+  font-size: 100px;
+}
+
+.application-title, .screening-title, .interview-title, .onboarding-title {
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 0px;
+  padding-top: 15px;
+}
+
+.application-number:hover{
+  bottom: 0px;
+  margin-right: 28px;
+}
+
+.screening-number{
+   bottom: 0px;
+  margin-right: 6px;
+}
+.interview-number{
+   bottom: 0px;
+  margin-right: 6px;
+}
+.onboarding-number {
+  bottom: 0px;
+  margin-right: 19px;
+}
+
+.careers-values {
+  padding-top: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+}
+.careers-main{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 0px;
+}
+.our-value-section-sub{
+  margin-bottom: 30px;
+}
+.value-cards{
+  gap: 0px;
+}
+.careers-values {
+    padding-top: 40px;
+}
+.careers-mission {
+  padding-top: 40xp;
+  padding-left: 20px;
+  padding-right: 20px;
+  background: #fff;
+}
+
+}
+
+@media only screen and (min-width: 300px) and (max-width: 599px) {
+  .careers-hero{
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 0px;
+  }
+  .hero-content h1 {
+    width: 100%;
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .hero-content p{
+    font-size: 17px;
+    line-height: 22px;
+  }
+  .hero-content{
+    width: 100%;
+  }
+  .careers-title{
+    font-size: 25px;
+    line-height: 30px;
+  } 
+  .title-banner-txt{
+  margin-top: -120px;
+}
+.our-misvis-title{
+  font-size: 30px;
+  line-height: 40px;
+}
+.how-we-hire-section .section-heading{
+  font-size: 30px;
+  line-height: 40px;
+}
+.our-value-section-title{
+   font-size: 30px;
+  line-height: 40px;
+}
+.job-title {
+  font-size: 18px;
+  line-height: 26px;
+}
+.Currently-no-openings {
+  margin: 0px 15px;
+}
+
+}
